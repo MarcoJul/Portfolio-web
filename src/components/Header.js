@@ -5,10 +5,26 @@ const Header = () => {
     <header className={classes.header}>
       <nav className={classes.menu}>
         <ul className={classes.navigation}>
-          <li className={classes.link}>About</li>
-          <li className={classes.link}>What I do</li>
-          <li className={classes.link}>Projects</li>
-          <li className={classes.link}>Contact</li>
+          <li>
+            <a className={classes.link} href="">
+              About
+            </a>
+          </li>
+          <li>
+            <a className={classes.link} href="">
+              What I Do
+            </a>
+          </li>
+          <li>
+            <a className={classes.link} href="">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a className={classes.link} href="">
+              Contact
+            </a>
+          </li>
         </ul>
         <div className={classes.action}>
           <a href="/files/Marco_Giuliotti-CV_eng.pdf" download>

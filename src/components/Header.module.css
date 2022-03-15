@@ -33,14 +33,16 @@
 }
 
 .link {
-  transition: all 0.4s;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+
+  transition: all 0.4s;
 }
 .link:hover {
   transition: all 0.4s;
   color: #aaa;
 }
-
 .cvBtn {
   background-color: #d69704;
   border: none;

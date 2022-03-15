@@ -60,7 +60,7 @@
   transform: translateX(0px);
 }
 
-.link {
+.navigation {
   list-style-type: none;
   font-size: 5rem;
   margin-bottom: 3rem;
@@ -71,7 +71,7 @@
   text-align: center;
 }
 
-a {
+.link {
   text-decoration: none;
   transition: all 0.4s;
   color: #061e3a;
