@@ -53,6 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .menu.click {
@@ -62,10 +63,12 @@
 .link {
   list-style-type: none;
   font-size: 5rem;
+  margin-bottom: 3rem;
 }
 
 .listed {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 a {
@@ -76,5 +79,21 @@ a {
 
 a:hover {
   color: #d69704;
+  transition: all 0.4s;
+}
+
+.cvBtn {
+  background-color: #d69704;
+  border: none;
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.cvBtn:hover {
+  background-color: #af7b02;
   transition: all 0.4s;
 }

@@ -11,7 +11,9 @@ const Header = () => {
           <li className={classes.link}>Contact</li>
         </ul>
         <div className={classes.action}>
-          <button className={classes.cvBtn}>CV</button>
+          <a href="/files/Marco_Giuliotti-CV_eng.pdf" download>
+            <button className={classes.cvBtn}>CV</button>
+          </a>
         </div>
       </nav>
     </header>

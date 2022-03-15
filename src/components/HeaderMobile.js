@@ -36,6 +36,11 @@ const HeaderMobile = () => {
             <a href="">Contact</a>
           </li>
         </ul>
+        <div className={classes.action}>
+          <a href="/files/Marco_Giuliotti-CV_eng.pdf" download>
+            <button className={classes.cvBtn}>CV</button>
+          </a>
+        </div>
       </div>
     </header>
   );
