@@ -13,14 +13,14 @@ function App() {
   });
 
   return (
-    <div className={classes.content}>
+    <Fragment>
       {isDesktop && <Header />}
       {isMobile && <HeaderMobile />}
       <div className={classes.logo}>
-        <h1>Marco Giuliotti</h1>
+        <h1>Lorem Ipsum</h1>
         <p>Front-end Developer</p>
       </div>
-    </div>
+    </Fragment>
   );
 }
 
