@@ -24,22 +24,22 @@ const HeaderMobile = () => {
       <div className={`${classes.menu} ${menuIsOpen ? classes.click : ""}`}>
         <ul className={classes.navigation}>
           <li className={classes.listed}>
-            <a className={classes.link} href="">
+            <a className={classes.link} href="#about">
               About
             </a>
           </li>
           <li className={classes.listed}>
-            <a className={classes.link} href="">
+            <a className={classes.link} href="#do">
               What I Do
             </a>
           </li>
           <li className={classes.listed}>
-            <a className={classes.link} href="">
+            <a className={classes.link} href="#project">
               Projects
             </a>
           </li>
           <li className={classes.listed}>
-            <a className={classes.link} href="">
+            <a className={classes.link} href="#contact">
               Contact
             </a>
           </li>

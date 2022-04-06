@@ -17,8 +17,15 @@ function App() {
       {isDesktop && <Header />}
       {isMobile && <HeaderMobile />}
       <div className={classes.logo}>
-        <h1>Lorem Ipsum</h1>
-        <p>Front-end Developer</p>
+        <div className={classes.textBox}>
+          <h1>Lorem Ipsum</h1>
+          <p>Front-end Developer</p>
+        </div>
+        <div className={classes.cta}>
+          <a href="mailto:marco.giuliotti@gmail.com" className={classes.mail}>
+            Get in touch
+          </a>
+        </div>
       </div>
     </Fragment>
   );

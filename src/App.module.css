@@ -2,7 +2,42 @@
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 300;
-  width: 50%;
   margin-top: 20rem;
-  margin-left: 10rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.cta {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  padding: 1rem;
+  transition: all 0.6s;
+}
+
+.cta:hover {
+  transform: scale(1.05);
+  transition: all 0.6s;
+}
+.mail {
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 10rem;
+    gap: 15rem;
+  }
 }

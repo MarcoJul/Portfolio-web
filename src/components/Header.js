@@ -6,22 +6,22 @@ const Header = () => {
       <nav className={classes.menu}>
         <ul className={classes.navigation}>
           <li>
-            <a className={classes.link} href="">
+            <a className={classes.link} href="#about">
               About
             </a>
           </li>
           <li>
-            <a className={classes.link} href="">
+            <a className={classes.link} href="#do">
               What I Do
             </a>
           </li>
           <li>
-            <a className={classes.link} href="">
+            <a className={classes.link} href="#project">
               Projects
             </a>
           </li>
           <li>
-            <a className={classes.link} href="">
+            <a className={classes.link} href="#contact">
               Contact
             </a>
           </li>
